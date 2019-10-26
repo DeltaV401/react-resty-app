@@ -6,11 +6,11 @@ class Method extends React.Component {
       <>
         <div className="httpMethods">
           <form>
-            <label><input name="methodType" type="radio" className={this.methodClass}/>GET</label>
-            <label><input name="methodType"  type="radio" className={this.methodClass}/>POST</label>
-            <label><input name="methodType"  type="radio" className={this.methodClass}/>PUT</label>
-            <label><input name="methodType"  type="radio" className={this.methodClass}/>PATCH</label>
-            <label><input name="methodType"  type="radio" className={this.methodClass}/>DELETE</label>
+            <label><input name="methodType" type="radio" className="methodChecks"/>GET</label>
+            <label><input name="methodType"  type="radio" className="methodChecks"/>POST</label>
+            <label><input name="methodType"  type="radio" className="methodChecks"/>PUT</label>
+            <label><input name="methodType"  type="radio" className="methodChecks"/>PATCH</label>
+            <label><input name="methodType"  type="radio" className="methodChecks"/>DELETE</label>
             <button onClick={this.handleClick} name="submitMethod">Go!</button>
           </form>
         </div>

@@ -5,7 +5,7 @@ class Body extends React.Component {
     return (
       <>
         <form name="jsonBody">
-          <input name="bodyJson"/>
+          <input name="bodyJson" placeholder="Raw JSON Body" className="jsonBody"/>
           <button onClick={this.handleClick}>Headers</button>
         </form>
       </>

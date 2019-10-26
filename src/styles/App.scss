@@ -1,2 +1,39 @@
 @import 'reset';
 @import 'variables';
+
+body {
+  font-size: 20px;
+  font-family: $fontStack;
+  background-color: rgb(230,230,230);
+}
+
+main {
+  input {
+    width: 100%;
+  }
+  .methodChecks {
+    width: auto;
+  }
+  min-height: 100%;
+  padding: 15px;
+}
+
+header {
+  h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+  }
+  padding: 10px 0px 10px 30px;
+  background-color: $background;
+}
+
+footer {
+  h5 {
+    font-size: .5rem;
+    text-align: center;
+  }
+  width: 100%;
+  position: fixed;
+  bottom: 10px;
+}
